@@ -34,7 +34,6 @@ securityContext:
   runAsGroup: 0
 
   
-securityContext: {}
   # capabilities:
   #   drop:
   #   - ALL
