@@ -40,7 +40,6 @@ A Helm chart for Kubernetes
 | readinessProbe.tcpSocket.port | string | `"http"` |  |
 | replicaCount | int | `1` |  |
 | resources | object | `{}` |  |
-| securityContext | object | `{}` |  |
 | securityContext.runAsGroup | int | `0` |  |
 | securityContext.runAsUser | int | `0` |  |
 | serviceAccount.annotations | object | `{}` | Annotations to add to the service account |
