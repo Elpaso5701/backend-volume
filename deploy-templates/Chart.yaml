@@ -1,5 +1,5 @@
 apiVersion: v2
-name: backend-expose
+name: backend-volume
 description: A Helm chart for Kubernetes
 
 # A chart can be either an 'application' or a 'library' chart.
@@ -22,8 +22,8 @@ version: 0.1.0
 # follow Semantic Versioning. They should reflect the version the application is using.
 appVersion: 0.1.0
 
-home: https://github.com/KubeRocketCI/template-backend-expose.git
+home: https://github.com/KubeRocketCI/template-flask.git
 sources:
-  - https://github.com/KubeRocketCI/template-backend-expose.git
+  - https://github.com/KubeRocketCI/template-flask.git
 maintainers:
   - name: DEV Team
